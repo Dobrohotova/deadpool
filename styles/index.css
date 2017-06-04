@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	height: 6161px;
+}
+
+.section1 {
+	width: 100%;
+	height: 1190px;
+	background: url(../media/images/backgroundimg.png);
+}
+
+	.logo {
+		margin: 5% 0 0 10%;
+	}
+
+	.deadpool1 {
+		margin: 19% 0 0 30%;
+	}
+
+	.scroll {
+		margin: -4% 48% 0 48%;
+	}
