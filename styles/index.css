@@ -11,8 +11,9 @@
 
 .section1 {
 	width: 100%;
-	height: 1190px;
+	height: 1189px;
 	background: url(../media/images/backgroundimg.png);
+	background-repeat: no-repeat;
 }
 
 	.logo {
@@ -25,4 +26,21 @@
 
 	.scroll {
 		margin: -4% 48% 0 48%;
+	}
+
+.section2 {
+	width: 100%;
+	height: 1210px;
+	background: url(../media/images/backgroundimg2.png);
+	background-repeat: no-repeat;
+}
+
+	.deadpool2 {
+		margin: 30% 20% 0 20%;
+	}
+
+	.section2_content {
+		width: 90%;
+		height: 1210px;
+		margin: 0 auto;
 	}
