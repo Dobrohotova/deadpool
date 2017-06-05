@@ -46,5 +46,13 @@
 	}
 
 		.about {
+			margin-top: 80px;
+		}
+
+		.deadpool_p {
+			color: white;
+			font-size: 37px;
+			font-weight: 300;
+			font-family: 'Roboto', sans-serif;
 			
 		}
