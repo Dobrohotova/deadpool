@@ -71,8 +71,14 @@
 
 		.quotes {
 			margin-top: 80px;
+			float: left;
+		}
+
+		.navodnici {
+			float: left;
+			margin: 200px 0 0 207px;
 		}
 
 		.deadpool3 {
-			margin: 488px 0 0 17%;
+			margin: -2px 0 0 -9%;
 		}
