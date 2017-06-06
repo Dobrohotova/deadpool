@@ -11,7 +11,7 @@
 
 .section1 {
 	width: 100%;
-	height: 1189px;
+	height: 1215px;
 	background: url(../media/images/backgroundimg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -66,7 +66,7 @@
 
 	.section3_content {
 		width: 90%;
-		margin: 0 auto;
+		margin: 0px auto 0 auto;
 	}
 
 		.quotes {
@@ -81,4 +81,80 @@
 
 		.deadpool3 {
 			margin: -2px 0 0 -9%;
+		}
+
+
+.section4 {
+	width: 100%;
+	height: 1200px;
+	margin: -5px;
+}
+
+	.slider_naslov1 {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		color: #cd464b;
+		font-size: 83px !important;
+		text-transform: uppercase;
+	}
+
+		.yellow {
+			color: #fbb73a;
+		}
+
+		.blue {
+			color: #39a6b9;
+		}
+
+	.slider_naslov2 {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 500;
+		color: #343436;
+		font-size: 72px !important;
+		text-transform: uppercase;
+		margin-top: 90px !important;
+	}
+
+	.slider_naslovp {
+		width: 410px;
+		height: 80px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		color: #343436;
+		font-size: 28px !important;
+		margin-top: 220px !important;
+	}
+
+		.p2 {
+			margin-top: 260px !important;
+		}
+
+	.slider_naslovbox {
+		width: 200px;
+		height: 65px;
+		border: 2px solid #343436;
+		margin-top: 350px !important;
+		transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+	}
+
+		.slider_naslovbox p {
+			font-family: 'Raleway', sans-serif; font-weight: 700;
+			color: #343436; 
+			font-size: 24px !important; 
+			text-transform: uppercase;
+			margin-left: 40px !important;
+			margin-top: 15px !important;
+			transition: all 0.3s;
+		}
+
+		.slider_naslovbox:hover {
+			background-color: #343436; 
+			cursor: pointer;
+		}
+
+		.slider_naslovbox:hover p {
+			color: white; 
 		}
