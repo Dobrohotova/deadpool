@@ -99,29 +99,63 @@
 
 		.of {
 			width: 130px !important;
-			/*height: 50px !important;*/
-			margin: 950px 0 0 150px !important;
+			height: 50px !important;
+			margin: 930px 0 0 150px !important;
+		}
+
+		.line {
+			width: 184px !important;
+			height: 3px !important;
+			margin: 990px 0 0 120px !important;
 		}
 
 
 		.social_media {
-			width: 15px !important;
-			margin: 1000px 0 0 150px !important;
+			width: 14px !important;
+			height: 24px !important;
+			margin: 1010px 0 0 150px !important;
+			opacity: .7 !important;
 		}
 
 		.social_media2 {
-			width: 20px !important;
-			margin: 1000px 0 0 190px !important;
+			width: 26px !important;
+			height: 20px !important;
+			margin: 1013px 0 0 190px !important;
+			opacity: .7 !important;
 		}
 
 		.social_media3 {
-			width: 20px !important;
-			margin: 1000px 0 0 230px !important;
+			width: 24px !important;
+			height: 24px !important;
+			margin: 1010px 0 0 230px !important;
+			opacity: .7 !important;
 		}
 
 		.social_media4 {
 			width: 20px !important;
-			margin: 1000px 0 0 270px !important;	
+			height: 25px !important;
+			margin: 1010px 0 0 270px !important;
+			opacity: .7 !important;	
+		}
+
+		.social_media:hover {
+			opacity: 1 !important;
+			cursor: pointer;
+		}
+
+		.social_media2:hover {
+			opacity: 1 !important;
+			cursor: pointer;
+		}
+
+		.social_media3:hover {
+			opacity: 1 !important;
+			cursor: pointer;
+		}
+
+		.social_media4:hover {
+			opacity: 1 !important;
+			cursor: pointer;	
 		}
 
 
@@ -137,13 +171,23 @@
 }*/
 
 .sp-arrows {
-	width: 300px !important;
-	left: 64px !important;
-	margin-top: -15px !important;
-	bottom: 230px !important;
-	top: auto !important;
+	width: 240px !important;
+    left: 93px !important;
+    margin-top: -15px !important;
+    bottom: 255px !important;
+    top: auto !important;
+    color: #838080 !important;
 }
 
 .sp-fade-arrows {
 	opacity: 1 !important;
+}
+
+.sp-arrow {
+	width: 7px !important;
+    height: 20px !important;
+}
+
+.sp-next-arrow:after, .sp-next-arrow:before, .sp-previous-arrow:after, .sp-previous-arrow:before {
+	background-color: #838080;
 }
