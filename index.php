@@ -14,16 +14,16 @@
 </head>
 <body>
 	<?php include('header.html'); ?>
-	<div class="container">
 	<div class="sidenav">
 		<ul>
-			<li><img src="media/images/navimg.png"></li>
-			<li><img src="media/images/navimg.png"></li>
-			<li><img src="media/images/navimg.png"></li>
-			<li><img src="media/images/navimg.png"></li>
-			<li><img src="media/images/navimg.png"></li>
+			<li data-link="first" class="first"><img src="media/images/navimg.png"></li>
+			<li data-link="second" class="second"><img src="media/images/navimg.png"></li>
+			<li data-link="third" class="third"><img src="media/images/navimg.png"></li>
+			<li data-link="fourth" class="fourth"><img src="media/images/navimg.png"></li>
+			<li data-link="fifth" class="fifth"><img src="media/images/navimg.png"></li>
 		</ul>
 	</div>
+	<div class="container">
 		<div class="section1">
 			<img class="logo" src="media/images/logo.png">
 			<img class="deadpool1" src="media/images/deadpool1.png">
@@ -40,10 +40,14 @@
 				<img class="quotes" src="media/images/quotes.png">
 				<img class="navodnici" src="media/images/navodnici.png">
 				<div id="carousel">
-				  <div class="btn-bar">
-				    <div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div></div>
-				    <div id="slides">
-				        <ul>
+					<div class="btn-bar">
+						<div id="buttons">
+							<a id="prev" href="#"><</a>
+							<a id="next" href="#">></a> 
+						</div>
+					</div>
+					<div id="slides">
+					    <ul>
 				            <li class="slide">
 				                <div class="quoteContainer">
 				                    <p class="quote-phrase"><span class="quote-marks">"</span>I had another Liam Neeson nightmare. I kidnapped his daughter and he just wasn't having it. They made three of those movies. At some point you have to wonder if he's just a bad parent.<class="quote-marks">"</span>
@@ -95,81 +99,82 @@
 				                </div>
 				            </li>
 				        </ul>
-				    </div>
-				<img class="deadpool3" src="media/images/deadpool3.png">
+					</div>
+					<img class="deadpool3" src="media/images/deadpool3.png">
+				</div>
 			</div>
 		</div>
 		<div class="section4">
 			<section id="main-slider" class="no-margin">
-			<div class="slider-pro" id="my-slider">
-				<div class="sp-slides">
-					<div class="sp-slide">
-						<img class="sp-image" src="media/images/sliderimg1.png"/>
-						<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
-						<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-25%" data-vertical="-40%">
-							<img class="sp-image sp-layer of" src="media/images/slider1.png">
+				<div class="slider-pro" id="my-slider">
+					<div class="sp-slides">
+						<div class="sp-slide">
+							<img class="sp-image" src="media/images/sliderimg1.png"/>
+							<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
+							<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-25%" data-vertical="-40%">
+								<img class="sp-image sp-layer of" src="media/images/slider1.png">
+							</div>
+							<img class="sp-image sp-layer line" src="media/images/line.png">
+							<img class="sp-image sp-layer social_media" src="media/images/fb.png">
+							<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
+							<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
+							<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
 						</div>
-						<img class="sp-image sp-layer line" src="media/images/line.png">
-						<img class="sp-image sp-layer social_media" src="media/images/fb.png">
-						<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
-						<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
-						<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
-					</div>
 
-					<div class="sp-slide">
-						<img class="sp-image" src="media/images/sliderimg2.png"/>
-						<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
-						<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-25%" data-vertical="-40%">
-							<img class="sp-image sp-layer of" src="media/images/slider2.png">
+						<div class="sp-slide">
+							<img class="sp-image" src="media/images/sliderimg2.png"/>
+							<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
+							<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-25%" data-vertical="-40%">
+								<img class="sp-image sp-layer of" src="media/images/slider2.png">
+							</div>
+							<img class="sp-image sp-layer line" src="media/images/line.png">
+							<img class="sp-image sp-layer social_media" src="media/images/fb.png">
+							<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
+							<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
+							<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
 						</div>
-						<img class="sp-image sp-layer line" src="media/images/line.png">
-						<img class="sp-image sp-layer social_media" src="media/images/fb.png">
-						<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
-						<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
-						<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
-					</div>
 
-					<div class="sp-slide">
-						<img class="sp-image" src="media/images/sliderimg3.png"/>
-						<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
-						<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-50%" data-vertical="-40%">
-							<img class="sp-image sp-layer of" src="media/images/slider3.png">
+						<div class="sp-slide">
+							<img class="sp-image" src="media/images/sliderimg3.png"/>
+							<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
+							<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-50%" data-vertical="-40%">
+								<img class="sp-image sp-layer of" src="media/images/slider3.png">
+							</div>
+							<img class="sp-image sp-layer line" src="media/images/line.png">
+							<img class="sp-image sp-layer social_media" src="media/images/fb.png">
+							<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
+							<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
+							<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
 						</div>
-						<img class="sp-image sp-layer line" src="media/images/line.png">
-						<img class="sp-image sp-layer social_media" src="media/images/fb.png">
-						<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
-						<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
-						<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
-					</div>
 
-					<div class="sp-slide">
-						<img class="sp-image" src="media/images/sliderimg4.png"/>
-						<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
-						<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-50%" data-vertical="-40%">
-							<img class="sp-image sp-layer of" src="media/images/slider4.png">
+						<div class="sp-slide">
+							<img class="sp-image" src="media/images/sliderimg4.png"/>
+							<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
+							<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-50%" data-vertical="-40%">
+								<img class="sp-image sp-layer of" src="media/images/slider4.png">
+							</div>
+							<img class="sp-image sp-layer line" src="media/images/line.png">
+							<img class="sp-image sp-layer social_media" src="media/images/fb.png">
+							<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
+							<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
+							<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
 						</div>
-						<img class="sp-image sp-layer line" src="media/images/line.png">
-						<img class="sp-image sp-layer social_media" src="media/images/fb.png">
-						<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
-						<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
-						<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
-					</div>
 
-					<div class="sp-slide">
-						<img class="sp-image" src="media/images/sliderimg5.png"/>
-						<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
-						<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-50%" data-vertical="-40%">
-							<img class="sp-image sp-layer of" src="media/images/slider5.png">
+						<div class="sp-slide">
+							<img class="sp-image" src="media/images/sliderimg5.png"/>
+							<img class="sp-image sp-layer gallery" src="media/images/gallery.png">
+							<div class="sp-layer slider_box" data-position="leftBottom" data-horizontal="-50%" data-vertical="-40%">
+								<img class="sp-image sp-layer of" src="media/images/slider5.png">
+							</div>
+							<img class="sp-image sp-layer line" src="media/images/line.png">
+							<img class="sp-image sp-layer social_media" src="media/images/fb.png">
+							<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
+							<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
+							<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
 						</div>
-						<img class="sp-image sp-layer line" src="media/images/line.png">
-						<img class="sp-image sp-layer social_media" src="media/images/fb.png">
-						<img class="sp-image sp-layer social_media2" src="media/images/twitter.png">
-						<img class="sp-image sp-layer social_media3" src="media/images/instagram.png">
-						<img class="sp-image sp-layer social_media4" src="media/images/pinterest.png">
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 		</div>
 		<div class="section5">
 			<img class="videos" src="media/images/videos.png">
@@ -192,7 +197,28 @@
 	<script src="plugins/slider-pro-master/libs/jquery-1.11.0.min.js"></script>
 	<script src="plugins/slider-pro-master/dist/js/jquery.sliderPro.min.js"></script>
 	<script type="text/javascript">
-		jQuery(document).ready(function($){
+		$(document).ready(function(){
+			var scrollSite = function(scroll){
+					if(scroll > -10 && scroll < 1215){
+					$('.sidenav ul li').css('opacity', .3);
+					$('.sidenav ul li.first').css('opacity', 1);
+				}else if(scroll > 1215 && scroll < 2555){
+					$('.sidenav ul li').css('opacity', .3);
+					$('.sidenav ul li.second').css('opacity', 1);
+				}else if(scroll > 2555 && scroll < 3756){
+					$('.sidenav ul li').css('opacity', .3);
+					$('.sidenav ul li.third').css('opacity', 1);
+				}else if(scroll > 3756 && scroll < 4956){
+					$('.sidenav ul li').css('opacity', .3);
+					$('.sidenav ul li.fourth').css('opacity', 1);
+				}else{
+					$('.sidenav ul li').css('opacity', .3);
+					$('.sidenav ul li.fifth').css('opacity', 1);
+				}
+			};
+
+			scrollSite($(document).scrollTop());
+
 			$('#my-slider').sliderPro({
 				width: '100%',
 				height: 1200,
@@ -202,6 +228,33 @@
 				fade: true,
 				autoplay: false,
 				autoScaleLayers: false
+			});
+
+			$(document).on('scroll', function(){
+				var scroll = $(document).scrollTop();
+				scrollSite(scroll);
+			});
+
+			$('.sidenav ul li, .sidebar-anchor').on('click', function(e){
+				e.preventDefault();
+
+				switch($(this).data('link')){
+					case 'first':
+						$("html, body").animate({ scrollTop: 0 }, 600);
+					break;
+					case 'second':
+						$("html, body").animate({ scrollTop: 1216 }, 600);
+					break;
+					case 'third':
+						$("html, body").animate({ scrollTop: 2556 }, 600);
+					break;
+					case 'fourth':
+						$("html, body").animate({ scrollTop: 3757 }, 600);
+					break;
+					case 'fifth':
+						$("html, body").animate({ scrollTop: 4957 }, 600);
+					break;
+				}
 			});
 		});
 	</script>
