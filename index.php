@@ -5,12 +5,25 @@
 	<link rel="stylesheet" href="plugins/slider-pro-master/dist/css/slider-pro.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/slider.css">
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="stylesheet" type="text/css" href="styles/header.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/textslider.js"></script>
+	<script type="text/javascript" src="scripts/header.js"></script>
 </head>
 <body>
+	<?php include('header.html'); ?>
 	<div class="container">
+	<div class="sidenav">
+		<ul>
+			<li><img src="media/images/navimg.png"></li>
+			<li><img src="media/images/navimg.png"></li>
+			<li><img src="media/images/navimg.png"></li>
+			<li><img src="media/images/navimg.png"></li>
+			<li><img src="media/images/navimg.png"></li>
+		</ul>
+	</div>
 		<div class="section1">
 			<img class="logo" src="media/images/logo.png">
 			<img class="deadpool1" src="media/images/deadpool1.png">
@@ -160,7 +173,7 @@
 		</div>
 		<div class="section5">
 			<img class="videos" src="media/images/videos.png">
-			<iframe class="video1" width="100%" height="950" src="https://www.youtube.com/embed/wLeGWcVeIZ4" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video1" width="100%" height="1200" src="https://www.youtube.com/embed/wLeGWcVeIZ4" frameborder="0" allowfullscreen></iframe>
 			<!-- <div class="section5_content">
 				
 			</div> -->
