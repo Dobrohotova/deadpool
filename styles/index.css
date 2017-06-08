@@ -38,7 +38,7 @@
 	}
 
 	.deadpool1 {
-		margin: -11% 0 0 30%;
+		margin: 15% 0 0 30%;
 	}
 
 
@@ -76,9 +76,9 @@
 		.deadpool_p {
 			/*-webkit-clip-path: polygon(20% 0%, 85% 0%, 100% 40%, 80% 60%, 70% 80%, 70% 100%, 50% 100%, 0% 40%);
 			clip-path: polygon(20% 0%, 85% 0%, 100% 40%, 80% 60%, 70% 80%, 70% 100%, 50% 100%, 0% 40%);*/
-			width: 1250px;
+			width: 1200px;
 			height: 380px;
-    		margin: 10% auto 0 auto;
+    		margin: 7% auto 0 auto;
     		text-align: center;
 			color: white;
 			font-size: 37px;
